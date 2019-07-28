@@ -1,0 +1,28 @@
+<img class="fullBg" [src]="chess.image">
+
+<h1>{{page.title}}</h1>
+{{page.subtitle}}
+{{page.content}}
+<!-- not working as of right now, need to troubleshoot API key -->
+<!--
+  <div id="map"></div>
+  <script>
+    function initMap() {
+      // The location of Brock Chess
+      var brockLocation = {lat: 43.1176, lng: -79.2477};
+      // The map
+      var map = new google.maps.Map(
+        document.getElementById('map'), {
+          zoom: 4, center: brockLocation
+        });
+      // The marker
+      var marker = new google.maps.Marker({
+        position: brockLocation, map: map
+      });
+
+    }
+  </script>
+  <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7Wj7JN0Ugts-tpctv0e7B7r9Ecxb03w8&callback=initMap">
+  </script>
+  -->
