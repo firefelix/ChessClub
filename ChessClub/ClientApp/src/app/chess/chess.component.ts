@@ -9,6 +9,6 @@ export class ChessComponent {
     title: 'Home',
     subtitle: 'Welcome Home!',
     content: 'Some home content.',
-    image: 'assets/smiles.jpg'
+    image: 'assets/smiles.png'
   }
 }
