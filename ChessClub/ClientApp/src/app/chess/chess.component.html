@@ -5,7 +5,7 @@
     top: 0; /* The exact location of the text from the top of the image*/
     left: 0; /* Other beautification stuff */
     width: 100%;
-    min-height: 40%;
+    min-height: 10%;
     height: auto;
     left: calc(10% - 20px);
     color: white;
@@ -13,13 +13,19 @@
     font: bold 24px/45px Lato,sans-serif;
     letter-spacing: -1px;
     padding: 10px;
-    z-index: 9999;
+    z-index: 9000;
     background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+  }
+
+  div.nonReg {
+    position: static;
+    z-index: 9001;
+    background: rgb(0, 0, 0); /* fallback color */
   }
 
   img.fullBg {
     min-height: 100%;
-    min-width: 1024px;
+    min-width: 100%;
     width: 100%;
     height: auto;
     position: fixed;
@@ -27,12 +33,7 @@
     left: 0;
   }
 
-  @media screen and (max-width: 1024px) {
-    img.fullBg {
-      left: 50%;
-      margin-left: -512px;
-    }
-  }
+
 
 </style>
 <div>
@@ -46,13 +47,6 @@
   <div id="teamPhoto"><img class="fullBg" [src]="chess.image" /></div>
 </div>
 
-<div>
-  <h1>{{page.title}}</h1>
-
-  <p>{{page.subtitle}}</p>  
-
-  <p>{{page.content}}</p>
-</div>
 
 <!-- not working as of right now, need to troubleshoot API key -->
 <!--

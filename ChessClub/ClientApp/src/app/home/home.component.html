@@ -1,14 +1,71 @@
-<h1>Hello, world!</h1>
-<p>Welcome to your new single-page application, built with:</p>
-<ul>
-  <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
-  <li><a href='https://angular.io/'>Angular</a> and <a href='http://www.typescriptlang.org/'>TypeScript</a> for client-side code</li>
-  <li><a href='http://getbootstrap.com/'>Bootstrap</a> for layout and styling</li>
-</ul>
-<p>To help you get started, we've also set up:</p>
-<ul>
-  <li><strong>Client-side navigation</strong>. For example, click <em>Counter</em> then <em>Back</em> to return here.</li>
-  <li><strong>Angular CLI integration</strong>. In development mode, there's no need to run <code>ng serve</code>. It runs in the background automatically, so your client-side resources are dynamically built on demand and the page refreshes when you modify any file.</li>
-  <li><strong>Efficient production builds</strong>. In production mode, development-time features are disabled, and your <code>dotnet publish</code> configuration automatically invokes <code>ng build</code> to produce minified, ahead-of-time compiled JavaScript files.</li>
-</ul>
-<p>The <code>ClientApp</code> subdirectory is a standard Angular CLI application. If you open a command prompt in that directory, you can run any <code>ng</code> command (e.g., <code>ng test</code>), or use <code>npm</code> to install extra packages into it.</p>
+<style>
+
+  div.regText {
+    position: fixed; /* To place the text on the image*/
+    top: 0; /* The exact location of the text from the top of the image*/
+    left: 0; /* Other beautification stuff */
+    width: 100%;
+    min-height: 10%;
+    height: auto;
+    left: calc(10% - 20px);
+    color: white;
+    font-family: Lato,sans-serif;
+    font: bold 24px/45px Lato,sans-serif;
+    letter-spacing: -1px;
+    padding: 10px;
+    z-index: 9000;
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+  }
+
+  div.nonReg {
+    position: static;
+    z-index: 9001;
+    background: rgb(0, 0, 0); /* fallback color */
+  }
+
+  img.fullBg {
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+</style>
+<div>
+  <div class="regText">
+    <span>
+      <h1>Brock University Chess Club</h1>
+      <span class='spacer'></span><br />
+    </span> <!-- span tag to beautify it efficiently -->
+  </div>
+
+
+  <div id="teamPhoto"><img class="fullBg" [src]="home.image" /></div>
+</div>
+
+
+<!-- not working as of right now, need to troubleshoot API key -->
+<!--
+  <div id="map"></div>
+  <script>
+    function initMap() {
+      // The location of Brock Chess
+      var brockLocation = {lat: 43.1176, lng: -79.2477};
+      // The map
+      var map = new google.maps.Map(
+        document.getElementById('map'), {
+          zoom: 4, center: brockLocation
+        });
+      // The marker
+      var marker = new google.maps.Marker({
+        position: brockLocation, map: map
+      });
+
+    }
+  </script>
+  <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7Wj7JN0Ugts-tpctv0e7B7r9Ecxb03w8&callback=initMap">
+  </script>
+  -->

@@ -5,4 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './home.component.html',
 })
 export class HomeComponent {
+  home = {
+    title: 'Home',
+    subtitle: 'Welcome Home!',
+    content: 'Some home content.',
+    image: 'assets/smiles.png'
+  }
 }
