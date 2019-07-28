@@ -7,6 +7,11 @@
   <li><a href='http://getbootstrap.com/'>Bootstrap</a> for layout and styling</li>
 </ul>
 
+<h3> Deployed/Hosted on </h3>
+<ul>
+  <li><a href='https://azure.microsoft.com/en-us/'>Azure</a></li>
+</ul>
+
 <h4>
   //TODO
 </h4>
