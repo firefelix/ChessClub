@@ -1,5 +1,7 @@
 # ChessClub
 <h2>Brock Chess Repository</h2>
+<p>This is the code for the website used by <a href='https://www.facebook.com/BrockChessClub/'>Brock University Chess Club</a></p>
+
 <h3> Built in <a href='https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/angular?view=aspnetcore-2.2&tabs=visual-studio'>(Angular project template with ASP.NET Core)</a> </h3>
 <ul>
   <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
