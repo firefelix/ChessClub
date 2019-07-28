@@ -13,6 +13,7 @@
 <ul>
   <li> - Add Map Functionality </li>
   <li> - Add Contact  </li>
+  <li> - Add Chess Playing Page</li>
   <li> - Links to other social platforms</li>
   <li> - Connect with BUSU Clubs pages </li>
   <li> - Implement stylistic changes to make it themed to Brock Chess</li>
