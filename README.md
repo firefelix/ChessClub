@@ -1,5 +1,5 @@
 # ChessClub
-<h2>brock chess repository</h2>
+<h2>Brock Chess Repository</h2>
 <h3> Built in </h3>
 <ul>
   <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
@@ -10,3 +10,11 @@
 <h4>
   //TODO
 </h4>
+<ul>
+  <li> - Add Map Functionality </li>
+  <li> - Add Contact  </li>
+  <li> - Links to other social platforms</li>
+  <li> - Connect with BUSU Clubs pages </li>
+  <li> - Implement stylistic changes to make it themed to Brock Chess</li>
+  <li> - Think of more to add todo</li>
+</ul>
