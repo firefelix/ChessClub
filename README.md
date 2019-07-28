@@ -1,6 +1,6 @@
 # ChessClub
 <h2>Brock Chess Repository</h2>
-<h3> Built in (Angular project template with ASP.NET Core) </h3>
+<h3> Built in <a href='https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/angular?view=aspnetcore-2.2&tabs=visual-studio'>(Angular project template with ASP.NET Core)</a> </h3>
 <ul>
   <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
   <li><a href='https://angular.io/'>Angular</a> and <a href='http://www.typescriptlang.org/'>TypeScript</a> for client-side code</li>
