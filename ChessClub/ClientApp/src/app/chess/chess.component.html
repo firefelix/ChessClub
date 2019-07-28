@@ -1,4 +1,22 @@
 <style>
+
+  div.regText {
+    position: fixed; /* To place the text on the image*/
+    top: 0; /* The exact location of the text from the top of the image*/
+    left: 0; /* Other beautification stuff */
+    width: 100%;
+    min-height: 40%;
+    height: auto;
+    left: calc(10% - 20px);
+    color: white;
+    font-family: Lato,sans-serif;
+    font: bold 24px/45px Lato,sans-serif;
+    letter-spacing: -1px;
+    padding: 10px;
+    z-index: 9999;
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+  }
+
   img.fullBg {
     min-height: 100%;
     min-width: 1024px;
@@ -10,16 +28,23 @@
   }
 
   @media screen and (max-width: 1024px) {
-    img.bg {
+    img.fullBg {
       left: 50%;
       margin-left: -512px;
     }
   }
 
 </style>
+<div>
+  <div class="regText">
+    <span><h1>Brock University Chess Club</h1>
+    <span class='spacer'></span><br />
+     </span> <!-- span tag to beautify it efficiently -->
+  </div>
 
-<div id="teamPhoto"><img class="fullBg" [src]="chess.image" /></div>
 
+  <div id="teamPhoto"><img class="fullBg" [src]="chess.image" /></div>
+</div>
 
 <div>
   <h1>{{page.title}}</h1>
